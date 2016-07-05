@@ -1,2 +1,5 @@
 # GIF_JQuery
-App for gif search using JQuery
+
+GIF search app build using API of GIPHY.
+
+The app is build using JQuery.

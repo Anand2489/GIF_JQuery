@@ -1,0 +1,25 @@
+{
+  "name": "git_jquery",
+  "version": "1.0.0",
+  "description": "App for gif search using JQuery",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodejs": "^0.0.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anand2489/GIF_JQuery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anand2489/GIF_JQuery/issues"
+  },
+  "homepage": "https://github.com/Anand2489/GIF_JQuery#readme"
+}
