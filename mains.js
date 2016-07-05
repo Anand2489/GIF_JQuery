@@ -2,14 +2,12 @@ var current_page = 1;
 var records_per_page = 24;
 var numPages = 6;
 function searchFunc(offset) {
+
     ($(".row") && $('#img_gallery')).empty();
     ($(".row") && $('#trending_img_gallery')).empty();
+    
     var api_key = "dc6zaTOxFJmzC";
 
-    // var div = $('<div>').addClass('col-lg-3 col-md-4 col-xs-6 thumb');
-    // var p = $('p').html($('#Text').val());
-    // p.appendTo(div);
-    // div.appendTo($('.row') && $('#img_gallery'));
     var word = $("#Text").val().replace(/ /g,'+');
     var limit = records_per_page;
     var url = "http://api.giphy.com/v1/gifs/search?api_key="+api_key+"&q="+word+"&limit="+limit.toString()
